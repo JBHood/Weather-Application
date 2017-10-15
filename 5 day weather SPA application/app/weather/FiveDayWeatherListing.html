@@ -1,9 +1,9 @@
 ﻿
 <div id="fiveDayWeather">
-
-<div class="col-md-12 hero"></div>
+    <div class="col-md-12 hero"></div>
+    <h2>Weather in Bonnyrigg</h2>
     <div data-ng-controller="WeatherListCtrl as vm">
-        <div class="col-md-4" ng-repeat="details in vm.list">
+        <div class="col-lg-4 col-md-4 col-sm-6" ng-repeat="details in vm.list">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     {{vm.city.name}}<br />
@@ -18,12 +18,12 @@
                     </div>
                     <br />
                     <div class="panel-footer clearfix">
-                        <div class="col-lg-6  col-md-12 col-one">Temperature: </div><div class="col-lg-6  col-md-12 col-two">{{details.main.temp}}</div>
-                        <div class="col-md-6 col-one">Min:<br /> {{ details.main.temp_min}}</div><div class="col-md-6 col-two">Max:<br /> {{details.main.temp_max}}</div>
-                        <div class="col-md-6 col-one">Pressure:  </div><div class="col-md-6 col-two">{{details.main.pressure}}</div>
-                        <div class="col-md-6 col-one">Sea level:  </div><div class="col-md-6 col-two">{{ details.main.sea_level}}</div>
-                        <div class="col-md-6 col-one">Ground Level:   </div><div class="col-md-6 col-two">{{details.main.grnd_level}}</div>
-                        <div class="col-md-6 col-one">Humidity:    </div><div class="col-md-6 col-two">{{details.main.humidity}}</div>
+                        <div class="col-lg-6  col-md-6 col-sm-6 col-one">Temperature: </div><div class="col-lg-6  col-md-6 col-sm-6 col-one  col-md-6 col-two">{{details.main.temp}}</div>
+                        <div class="col-lg-6  col-md-6 col-sm-6 col-one col-one">Min:<br /> {{ details.main.temp_min}}</div><div class="col-lg-6  col-md-6 col-sm-6 col-one col-two">Max:<br /> {{details.main.temp_max}}</div>
+                        <div class="col-lg-6  col-md-6 col-sm-6 col-one col-one">Pressure:  </div><div class="col-lg-6  col-md-6 col-sm-6 col-one col-two">{{details.main.pressure}}</div>
+                        <div class="col-lg-6  col-md-6 col-sm-6 col-one col-one">Sea level:  </div><div class="col-lg-6  col-md-6 col-sm-6 col-one col-two">{{ details.main.sea_level}}</div>
+                        <div class="col-lg-6  col-md-6 col-sm-6 col-one col-one">Ground Level:   </div><div class="col-lg-6  col-md-6 col-sm-6 col-one col-two">{{details.main.grnd_level}}</div>
+                        <div class="col-lg-6  col-md-6 col-sm-6 col-one col-one">Humidity:    </div><div class="col-lg-6  col-md-6 col-sm-6 col-one col-two">{{details.main.humidity}}</div>
                     </div>
 
                 </div>

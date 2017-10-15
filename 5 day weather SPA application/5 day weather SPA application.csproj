@@ -31,10 +31,10 @@
     <Content Include="bundles\library.min.js">
       <DependentUpon>library.js</DependentUpon>
     </Content>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="styles\css\bootstrap\bootstrap-theme.css" />
+    <Content Include="styles\css\bootstrap\bootstrap-theme.min.css" />
+    <Content Include="styles\css\bootstrap\bootstrap.css" />
+    <Content Include="styles\css\bootstrap\bootstrap.min.css" />
     <Content Include="Content\img\bonnyrigg.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="scripts\javascript\bundle.js" />
@@ -55,10 +55,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="styles\css\bootstrap\bootstrap.min.css.map" />
+    <Content Include="styles\css\bootstrap\bootstrap.css.map" />
+    <Content Include="styles\css\bootstrap\bootstrap-theme.min.css.map" />
+    <Content Include="styles\css\bootstrap\bootstrap-theme.css.map" />
     <None Include="bundleconfig.json" />
     <None Include="compilerconfig.json" />
     <None Include="compilerconfig.json.defaults">
@@ -124,7 +124,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>55592</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:55592/</IISUrl>
+          <IISUrl>http://localhost:55567/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

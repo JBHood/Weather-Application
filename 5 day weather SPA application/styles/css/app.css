@@ -4,11 +4,12 @@
 span {
   font-style: italic; }
 
+.inner-area {
+  max-width: 920px;
+  margin: auto; }
+
 #fiveDayWeather .panel-body {
   text-align: center; }
-
-#fiveDayWeather .panel-footer {
-  display: none; }
 
 #fiveDayWeather .col-one {
   text-align: left !important; }

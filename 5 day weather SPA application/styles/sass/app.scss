@@ -6,6 +6,11 @@ span {
     font-style: italic;
 }
 
+.inner-area{
+    max-width:920px;
+    margin:auto;
+}
+
 #fiveDayWeather {
 
     .panel-body {
@@ -13,7 +18,7 @@ span {
     }
 
     .panel-footer {
-        display: none;
+        //display: none;
     }
 
     .col-one {
