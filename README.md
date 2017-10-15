@@ -2,6 +2,19 @@
 Application to show the weather in Bonnyrigg
 
 The solution was build on Visual Studio 2015 Professional
+Using
+
+Nuget Packages
+
+SASS/CSS3
+Bootstrap 3.7
+HTML 5
+Jquery
+Typescript/Javascript
+AngularJS
+Jasmine
+Chutzpa
+
 
 To run the solution clone the repo inside visual studio and run the project (F5)
 This will open the application and should be presented with the Single page application, displaying
