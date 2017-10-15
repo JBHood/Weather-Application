@@ -19,8 +19,8 @@ span {
 
 #fiveDayWeather .hero {
   min-height: 286px;
-  background-image: url("/Content/img/bonnyrigg.png");
+  background-image: url("/Content/img/weather.jpg");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: center;
   margin-bottom: 20px; }
 

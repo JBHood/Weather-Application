@@ -31,6 +31,7 @@
     <Content Include="bundles\library.min.js">
       <DependentUpon>library.js</DependentUpon>
     </Content>
+    <Content Include="Content\img\weather.jpg" />
     <Content Include="styles\css\bootstrap\bootstrap-theme.css" />
     <Content Include="styles\css\bootstrap\bootstrap-theme.min.css" />
     <Content Include="styles\css\bootstrap\bootstrap.css" />
@@ -107,7 +108,9 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Unit Tests\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>
