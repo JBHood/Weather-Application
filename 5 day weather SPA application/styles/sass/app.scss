@@ -1,0 +1,32 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+span {
+    font-style: italic;
+}
+
+#fiveDayWeather {
+
+    .panel-body {
+        text-align: center;
+    }
+
+    .panel-footer {
+        display: none;
+    }
+
+    .col-one {
+        text-align: left !important;
+    }
+
+    .col-two {
+        text-align: left !important;
+    }
+
+    .hero {
+        height: 300px;
+        background-color: blueviolet;
+        margin-bottom: 20px;
+    }
+}

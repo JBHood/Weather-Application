@@ -1,0 +1,36 @@
+﻿
+<div id="fiveDayWeather">
+
+<div class="col-md-12 hero"></div>
+    <div data-ng-controller="WeatherListCtrl as vm">
+        <div class="col-md-4" ng-repeat="details in vm.list">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    {{vm.city.name}}<br />
+                    {{details.dt_txt}}
+                </div>
+                <div class="panel-body">
+                    <div ng-repeat="weather in details.weather">
+                        {{weather.icon}}<br />
+                        {{weather.main}}<br />
+                        {{weather.description}}
+
+                    </div>
+                    <br />
+                    <div class="panel-footer clearfix">
+                        <div class="col-lg-6  col-md-12 col-one">Temperature: </div><div class="col-lg-6  col-md-12 col-two">{{details.main.temp}}</div>
+                        <div class="col-md-6 col-one">Min:<br /> {{ details.main.temp_min}}</div><div class="col-md-6 col-two">Max:<br /> {{details.main.temp_max}}</div>
+                        <div class="col-md-6 col-one">Pressure:  </div><div class="col-md-6 col-two">{{details.main.pressure}}</div>
+                        <div class="col-md-6 col-one">Sea level:  </div><div class="col-md-6 col-two">{{ details.main.sea_level}}</div>
+                        <div class="col-md-6 col-one">Ground Level:   </div><div class="col-md-6 col-two">{{details.main.grnd_level}}</div>
+                        <div class="col-md-6 col-one">Humidity:    </div><div class="col-md-6 col-two">{{details.main.humidity}}</div>
+                    </div>
+
+                </div>
+                <br /><br />
+
+            </div>
+        </div>
+    </div>
+</div>
+

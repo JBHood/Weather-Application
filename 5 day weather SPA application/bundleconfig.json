@@ -1,0 +1,19 @@
+[
+  {
+    "outputFileName": "bundles/bundle.js",
+    "inputFiles": [
+      "scripts/javascript/app.common.js",
+      "scripts/javascript/app.js",
+      "scripts/javascript/fiveDayWeatherListCtrl.js",
+      "scripts/javascript/weather.data.service.js"
+    ]
+  },
+  {
+    "outputFileName": "bundles/library.js",
+    "inputFiles": [
+      "scripts/lib/angular-mocks.js",
+      "scripts/lib/angular-resource.js",
+      "scripts/lib/angular.js"
+    ]
+  }
+]
