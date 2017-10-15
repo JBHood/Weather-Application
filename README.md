@@ -1,4 +1,3 @@
-
 # Weather-Application
 Application to show the weather in Bonnyrigg
 
@@ -23,6 +22,9 @@ User Experience
       It would also be good to use the weather icons that openweathermap.org use and supply names within the JSON
       
       It would be good to also display the map of the forecast location alongside the weather and maybe overlay the weather icons on the map, openweathermap.org also supply this as a API cal.
+
+Styling
+1. It would be good to style the web page similiar to the openweathermap.org or bespoke styling for a specific location.
 
 Architecture
 1. it would be better to change the Typescript Angular service to use the IResponse resource rather that an HTTP call to the API
