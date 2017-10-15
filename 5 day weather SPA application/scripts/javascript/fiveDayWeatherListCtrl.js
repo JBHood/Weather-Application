@@ -1,6 +1,10 @@
 var Forecast = (function () {
     function Forecast(jsonData) {
         $.extend(this, jsonData);
+        if (jsonData.list)
+            this.list = $.map(jsonData.list, function (lst) {
+                return new WeatherList(lst);
+            });
     }
     return Forecast;
 }());

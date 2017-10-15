@@ -1,8 +1,14 @@
 ﻿
+/*
+AngularJS Controller build in type script
+
+*/
+
+// View Model Contract
 interface IWeatherListModel
 {
-    /// city: Forecast,
-    /// list: WeatherList
+     city: Forecast,
+     list: WeatherList[]
 }
 
 interface IForecast
@@ -20,11 +26,11 @@ class Forecast implements IForecast
     {
         $.extend(this, jsonData);
 
-        //if (jsonData.list)
-        //    this.list = $.map(jsonData.list, (lst) =>
-        //    {
-        //        return new WeatherList(lst);
-        //    });
+        if (jsonData.list)
+            this.list = $.map(jsonData.list, (lst) =>
+            {
+                return new WeatherList(lst);
+            });
 
     }
 }
@@ -57,17 +63,17 @@ class MainWeather
 class WeatherListCtrl implements IWeatherListModel
 {
 
-    city: any
-    list: any[];
+    city: Forecast;
+    list: WeatherList[];
 
     static $inject = ["dataAccessService"];
     constructor(dataAccessService: app.common.DataAccessService)
     {
-
-        dataAccessService.getWeatherForecast(this.setUpViewModel);
+         dataAccessService.getWeatherForecast(this.setUpViewModel);
 
     }
 
+    /*service call back*/
     public setUpViewModel = (result) =>
     {
 
