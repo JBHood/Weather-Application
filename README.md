@@ -8,9 +8,9 @@ This will open the application and should be presented with the Single page appl
 the weather for the town of Bonnyrigg, Midlothian, Scotland.
 
 The tests are Typescript Jasmine tests and will run using the spec runner within the same project inside a folder 
-called Unit Tests and a file called SpecRunner.html, just open this file in a browser from its current location.
+called 'Unit Tests' and a file called 'SpecRunner.html', just open this file in a browser from its current location.
 
-I have hosted the site on www.waverleymarket.com 
+I have hosted the site on www.waverleymarket.com this is my own domain.
 
 There is a lot more that could be done if there was more time. Its pretty much a text based solution and on a fixed location (Bonnyrig)
 
