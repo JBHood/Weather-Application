@@ -32,6 +32,9 @@
       <DependentUpon>library.js</DependentUpon>
     </Content>
     <Content Include="Content\img\weather.jpg" />
+    <Content Include="Content\jasmine\jasmine.css" />
+    <Content Include="Content\jasmine\jasmine_favicon.png" />
+    <Content Include="scripts\javascript\WeatherControllerUnitTest.js" />
     <Content Include="styles\css\bootstrap\bootstrap-theme.css" />
     <Content Include="styles\css\bootstrap\bootstrap-theme.min.css" />
     <Content Include="styles\css\bootstrap\bootstrap.css" />
@@ -74,6 +77,13 @@
     <Content Include="styles\css\app.min.css">
       <DependentUpon>app.css</DependentUpon>
     </Content>
+    <Content Include="Unit Tests\lib\jasmine-2.8.0\boot.js" />
+    <Content Include="Unit Tests\lib\jasmine-2.8.0\console.js" />
+    <Content Include="Unit Tests\lib\jasmine-2.8.0\jasmine-html.js" />
+    <Content Include="Unit Tests\lib\jasmine-2.8.0\jasmine.css" />
+    <Content Include="Unit Tests\lib\jasmine-2.8.0\jasmine.js" />
+    <Content Include="Unit Tests\lib\jasmine-2.8.0\jasmine_favicon.png" />
+    <Content Include="Unit Tests\SpecRunner.html" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +91,7 @@
     <TypeScriptCompile Include="scripts\typescript\fiveDayWeatherListCtrl.ts" />
     <TypeScriptCompile Include="scripts\typescript\app.common.ts" />
     <TypeScriptCompile Include="scripts\typescript\weather.data.service.ts" />
+    <TypeScriptCompile Include="scripts\typescript\WeatherControllerUnitTest.ts" />
     <TypeScriptCompile Include="scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="scripts\typings\angularjs\angular-component-router.d.ts" />
     <TypeScriptCompile Include="scripts\typings\angularjs\angular-cookies.d.ts" />
@@ -89,6 +100,7 @@
     <TypeScriptCompile Include="scripts\typings\angularjs\angular-route.d.ts" />
     <TypeScriptCompile Include="scripts\typings\angularjs\angular-sanitize.d.ts" />
     <TypeScriptCompile Include="scripts\typings\angularjs\angular.d.ts" />
+    <TypeScriptCompile Include="scripts\typings\jasmine\jasmine.d.ts" />
     <TypeScriptCompile Include="scripts\typings\jquery\jquery.d.ts" />
   </ItemGroup>
   <ItemGroup>
@@ -101,6 +113,7 @@
     <Content Include="scripts\mappings\weather.data.service.js.map" />
     <Content Include="scripts\lib\jquery-1.9.1.min.map" />
     <Content Include="styles\sass\app.scss" />
+    <Content Include="Unit Tests\MIT.LICENSE" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
@@ -108,9 +121,7 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Unit Tests\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>
