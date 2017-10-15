@@ -35,6 +35,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\img\bonnyrigg.png" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="scripts\javascript\bundle.js" />
     <Content Include="scripts\javascript\bundle.min.js">
@@ -106,9 +107,7 @@
       <DependentUpon>web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Content\img\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
   </PropertyGroup>

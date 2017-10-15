@@ -25,8 +25,10 @@ span {
     }
 
     .hero {
-        height: 300px;
-        background-color: blueviolet;
+        min-height: 286px;
+        background-image: url("/Content/img/bonnyrigg.png");
+        background-repeat: no-repeat;
+        background-position: center;
         margin-bottom: 20px;
     }
 }
