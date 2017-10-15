@@ -16,8 +16,9 @@ There is a lot more that could be done if there was more time. Its pretty much a
 
 User Experience
 1. It would be better to be a fully interactive experience for the user.
-     It would be nice to give the user a choice of the location of the forecast
-     It would also be good to use the weather icons that openweathermap.org use and supply names within the JSON
+
+      It would be nice to give the user a choice of the location of the forecast
+      It would also be good to use the weather icons that openweathermap.org use and supply names within the JSON
       It would be good to also display the map of the forecast location alongside the weather and maybe overlay the weather icons on the map, openweathermap.org also supply this as a API cal.
 
 Architecture
